@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Login</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+      }
+
+      body {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(78, 129, 207);
+      }
+
+      #main {
+        border: hidden;
+        width: 25%;
+        height: 450px;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        padding: 40px;
+        background-color: white;
+        border-radius: 20px;
+      }
+
+      h2 {
+        margin-bottom: 20px;
+        font-size: 30px;
+      }
+
+      input {
+        width: 90%;
+        height: 30px;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+      }
+
+      button {
+        border: hidden;
+        color: white;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 20px;
+        background: linear-gradient(135deg, var(--primary), var(--secondary));
+      }
+
+      :root {
+        --primary: rgb(57, 147, 216);
+        --secondary: rgb(138, 71, 174);
+      }
+
+      p {
+        margin: -15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <h2>Login</h2>
+      <input type="text" name="" id="email" placeholder="Email" />
+      <input type="password" name="" id="Password" placeholder="Password" />
+      <button>Login</button>
+      <p>Forgot <a href="">Password</a>?</p>
+      <p>
+        Don't have an account?
+        <a
+          href="F:\Masai School\VS code data\My Projects\Git Collaboration\signup\signup.html"
+          target="_blank"       
+          >Sign Up</a
+        >
+      </p>
+    </div>
+  </body>
+</html>
